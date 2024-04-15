@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -10,21 +11,25 @@ nav {
     padding: 20px;
     background-color: #f2f2f2;
 }
+
 nav img {
     height: 30px;
     padding-left: 30px;
 }
+
 nav ul {
     display: flex;
     list-style-type: none;
 }
+
 nav ul a {
     margin: 0 10px;
     padding-left: 20px;
     text-decoration: none;
     color: #333;
 }
-nav button{
+
+nav button {
     padding: 15px 20px;
     background-color: transparent;
     color: #5E3BEE;
@@ -32,32 +37,44 @@ nav button{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.highlighted {
+    color: #5E3BEE !important;
+}
+
 .content {
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 20px;
 }
-.content .image{
-    margin-right: 500px;
+
+.content .image {
+    margin-top: 20px;
+    text-align: center;
 }
-.text {
-    flex: 1;
-}
-.text h3{
-    margin-top: 200px;
-}
-.text h1, .text h2, .text h3 {
-    margin-left: 30px;
-}
+
 .image {
+    margin-top: 150px;
     flex: 1;
     text-align: right;
 }
+
+
 .image img {
     max-width: 100%;
     height: auto;
 }
-.text button{
+
+.title1 {
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-left: 50px;
+    width: 80%;
+    text-align: center;
+}
+
+.title1 button {
     margin-left: 30px;
     margin-top: 30px;
     padding: 15px 20px;
@@ -69,28 +86,30 @@ nav button{
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #879cb2;
 }
 
 .card {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-  }
-  
-  .card h2 {
+}
+
+.card h2 {
     color: #333;
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .card p {
+}
+
+.card p {
     color: #666;
     font-size: 16px;
     line-height: 1.5;
-  }
+}
 
 #skills .skills-content {
     display: flex;
@@ -98,8 +117,14 @@ button:hover {
     align-items: center;
 }
 
-.title{
-    margin-top: 300px;
+
+
+.big-text {
+    font-size: 30px;
+}
+
+.large-text {
+    font-size: 50px;
 }
 
 #skills .card {
@@ -113,14 +138,31 @@ button:hover {
 }
 
 @media (min-width: 768px) {
+    nav img {
+        height: 40px;
+    }
+
+    nav ul a {
+        margin: 0 20px;
+    }
+
+    nav button {
+        padding: 15px 30px;
+    }
+
+    .content {
+        flex-direction: row;
+    }
+
+    .title1 {
+        width: 50%; 
+        margin-top: 150px; 
+        margin-left: 0;
+        text-align: left;
+    }
     #skills .skills-content {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
     }
-}
-
-.title{
-    margin-left: 50px;
-    height: 100%;
 }

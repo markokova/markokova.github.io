@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivana Ivanić</title>
+    <meta name="description" content="Home page of Portfolio web app. Web app contains skills, about, testimonials, contact.">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
-    <h1><?= "Hello LV1 task" ?></h1>
+    <nav role="navigation">
+        <a href="#"><img src="images/Navbar/Logo.png" alt="Logo" loading="lazy"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+        <button aria-label="Contact">Contact me</button>
+    </nav>
+    <section id="header"><iframe src="pages/header.html" frameborder="0" width="100%" height="1000px"></iframe></section>
+    <section id="skills"><iframe src="pages/skills.html" frameborder="0" width="100%" height="1000px"></iframe></section>
+    <section id="about"><iframe src="pages/about.html" frameborder="0" width="100%" height="1000px"></iframe></section>
+    <section id="portfolio"><iframe src="pages/portfolio.html" frameborder="0" width="100%" height="1000px"></iframe></section>
+    <section id="testimonials"><iframe src="pages/testimonials.html" frameborder="0" width="100%" height="1000px"></iframe></section>
+    <iframe src="pages/contact.html" frameborder="0" width="100%" height="1000px"></iframe>
 </body>
 </html>
