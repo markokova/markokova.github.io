@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+nav img {
+    height: 30px;
+    padding-left: 30px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul a {
+    margin: 0 10px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+nav button{
+    padding: 15px 20px;
+    background-color: transparent;
+    color: #5E3BEE;
+    border: 2px solid #5E3BEE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.content .image{
+    margin-right: 500px;
+}
+.text {
+    flex: 1;
+}
+.text h3{
+    margin-top: 200px;
+}
+.text h1, .text h2, .text h3 {
+    margin-left: 30px;
+}
+.image {
+    flex: 1;
+    text-align: right;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+.text button{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 15px 20px;
+    background-color: #5E3BEE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+#skills .skills-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-top: 300px;
+}
+
+#skills .card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #skills .skills-content {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.title{
+    margin-left: 50px;
+    height: 100%;
+}
