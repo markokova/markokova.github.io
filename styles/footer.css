@@ -1,0 +1,41 @@
+footer {
+    background-color: rgba(133, 96, 96, 0.252);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+hr{
+    width: 80%;
+    height: 2px;
+    background-color: #5E3BEE
+}
+
+#my-github{
+    text-decoration: none;
+}
