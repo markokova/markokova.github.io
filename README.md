@@ -14,7 +14,7 @@ Izradite vlastitu osobnu web stranicu prema primjeru dizajna početne stranice n
 - [✔]  Potrebno je dodatno nadograditi HTML i CSS kako bi stranica bila responzivnu na Tablet i Mobile rezolucijama sa svim gore navedenim elementima u dizajnu (Media Query)
 - [ ] Optimizirati stranicu - optimizirati slike, ubaciti lazyload, koristiti različite slike na desktop i mobile rezolucijama (Testirat će se putem Google Speed Testa)
 - [✔] Prilagoditi HTML kod da odgovara SEO značajkama
-- [ ] Uključiti ARIA atribute kako bi prilagodili web stranicu čitačima zaslona
+- [✔] Uključiti ARIA atribute kako bi prilagodili web stranicu čitačima zaslona
 
 Napravljen zadatak potrebno je postaviti na internet koristeći neki poslužitelj i gore na "LINK:" dodati poveznicu na navedeni zadatak. Zadatak koji nije postavljen na servis bodovat će se s 0 bodova. Popis poslužiteljskih usluga:
 
